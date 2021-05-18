@@ -1,19 +1,74 @@
-body {
-    color: peru;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    color: white;
 }
-#container 
-{
-    width: 70%;
-    padding: 1em;
-    text-align: left;
-    border: 1px solid #DDD;
-    margin: 0 auto;
+
+html {
+    font-size: 62.5%;
 }
-#container h1 {
-    font-size: 20px;
+
+.card {
+    width: 400px;
+    border: 50px;
+    border-radius: 10px;
+    background-color: rgb(54 50 50);
+    box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 26%);
+}
+
+.header {
+    display: flex;
+    padding: 0 10px;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-self: center;
+    margin: 10px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.header-info h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header-info p {
+    font-size: 1.5rem;
+}
+
+.img-principal {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.footer a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
 }
